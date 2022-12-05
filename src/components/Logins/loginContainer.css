@@ -1,0 +1,104 @@
+
+.login__container{
+    display: flex;
+    flex-direction: column;
+    width: 396px;
+    padding-top:10px;
+    padding-bottom: 15px;
+    border: 1px solid #DDDFE2 ;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow:
+        0 2px 4px rgba(0, 0, 0, .1),
+        0 8px 16px rgba(0, 0, 0, .1)
+    ;
+}
+.login__container > button{
+    color: #fff;
+}
+
+.login__container > .top__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 16px 0 16px;
+    height: fit-content;
+    
+
+}
+.login__button form{
+    display: flex;
+    flex-direction: column;
+}
+.login__container .bottom__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 16px 0 16px;
+    flex-wrap: wrap;
+    border-top: 1px solid #DDDFE2;
+    align-items: center;
+    height: 90px;
+}
+input{
+    height: 54px;
+    padding: 14px 16px;
+    border: 1px solid #DDDFE2;
+    border-radius: 6px;
+    color:#1d2129;
+
+}
+
+.middleSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.link{
+    color:#1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.login__button{
+    background:#1877f2;
+    border-color:#1877f2;
+    width: 100%;
+}
+
+.signUp__button{
+    background-color: #42b72a;
+    border-color: #42b72a;
+    padding: 1px 8px;
+}
+.button{
+    border: none;
+    border-radius: 6px;
+    line-height: 48px;
+    color: #fff;
+    font-size:20px;
+    font-weight: normal;
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+    outline:none;
+}
+.createPage{
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+    margin-top:15px;
+    text-align:center;
+}
+.createPage > a{
+   font-weight:600;
+   color:#1c1e21;
+   margin-right:.3em;
+}

@@ -1,0 +1,104 @@
+.icon-button{
+   outline: none;
+   border-style: none;
+   cursor: pointer;
+}
+
+.rounded{
+    border-radius: 555px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rectangle{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.primary{
+    background-color: var(--primary-button-background);
+    color: var(--primary-text);
+}
+
+.secondary{
+    background-color: var(--secondary-button-background);
+    color: var(--secondary-text);
+}
+.accent{
+    background-color: var(--accent);
+}
+.popover{
+    background-color: var(--popover-background);
+}
+.hoverable{
+    background-color: transparent;
+}
+.hoverable--primary:hover{
+    background-color:  var(--hover-overlay);
+}
+.hoverable--secondary:hover{
+    background-color: var(--secondary-button-background);
+}
+.hoverable--hover-overlay{
+    background-color: var(--hover-overlay);
+}
+.primary-focused{
+    background-color:var(--primary-focused-button-background) ;
+}
+.s28{
+    height:28px;
+    width: 28px;
+}
+.s{
+    height: 36px;
+    width: 36px;
+}
+.s32{
+    height:32px;
+    width:32px;
+}
+.medium{
+    height:40px;
+    width: 40px;
+}
+.medium48{
+    height:48px;
+    width:48px;
+}
+.large{
+    height:62px;
+    width: 63px;
+}
+.xs{
+    width: 160px;
+    height: 40px;
+    
+}
+.rec-medium{
+    width: 100%;
+    height:43px;
+}
+.avatar{
+    width: 100%;
+    height: 36px;
+}
+.space--8{
+    margin-left:8px;
+}
+.rec-small{
+    padding: 0 16px !important;
+    height: 36px;
+    width: 50px;
+}
+.update-100{
+    width:100%;
+    height:44px;
+}
+.focus-accent{
+    background-color: var(--primary-focused-button-background);
+}
+.full-size{
+    height:100%;
+    width:100%;
+}

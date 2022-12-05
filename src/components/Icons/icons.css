@@ -1,0 +1,258 @@
+/* lists  */
+
+.icon-list1 {
+    background-image: url('./fbIconsList1.png');
+}
+
+.icon-list2 {
+    background-image: url('./fbIconsList2.png');
+}
+
+.icon-list3 {
+    background-image: url('./fbIconsList3.png');
+}
+
+.icon-list4 {
+    background-image: url('./fbIconsList4.png');
+}
+
+.icon-list5 {
+    background-image: url('./fbIconsList5.png');
+}
+.icon-list6{
+    background-image: url('./fbIconsList6.png');
+}
+.icon-list7{
+    background-image: url('./fbIconsList7.png');
+}
+.icon-list8{
+    background-image: url('./fbIconsList8.png');
+}
+.icon-list9{
+    background-image: url('./fbIconsList9.png');
+}
+.icon-list10{
+    background-image: url('./fbIconsList10.png');
+}
+.icon-list11{
+    background-image: url('./fbIconsList11.png');
+}
+.icon-list12{
+    background-image: url('./fbIconsList12.png');
+}
+.cover{
+    background-size:cover !important;
+}
+/* ALL ICONS */
+
+.search {
+    background-position: 0 -962px;
+  
+}
+
+.camera {
+    background-position: 0 -25px;
+}
+
+.photo-video {
+    background-position: 0 -100px;
+}
+
+.feelings {
+    background-position: 0 -50px;
+}
+
+.marker {
+    background-position: 0 -275px;
+}
+
+.kebbab__menu {
+    background-position: 0 -133px;
+  
+}
+
+.friends__list {
+    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/IY7_xqHkrTm.png');
+  
+}
+
+.like {
+    background-position: 0 -263px;
+   
+}
+
+.comment {
+    background-position: 0 -130px;
+    
+}
+
+.share {
+    background-position: 0 -339px;
+
+}
+
+.caret__down {
+    background-position: 0 -1190px;
+   
+}
+
+.colored__text {
+    background-image: url('https://www.facebook.com/images/composer/SATP_Aa_square-2x.png');
+    background-size: cover !important;
+}
+
+.emoji {
+    background-position: 0 -158px;
+}
+
+.times {
+    background-position: 0 -469px;
+  
+}
+
+.friends__tag {
+    background-position: 0 -75px;
+}
+
+.chevron__down {
+    background-position: 0 -301px;
+   
+}
+
+.chevron__up {
+    background-position: 0 -406px;
+   
+}
+.arrow__left-header{
+    background-position: 0 -173px;
+  
+}
+.plus_ultra{
+    background-position: 0 -679px;
+  
+}
+.edit{
+    background-position: 0 -496px;
+   
+}
+.book{
+    background-position: 0 -629px;
+   
+}
+.event-star{
+    background-position: 0 -335px;
+   
+}
+.flag{
+    background-position: 0 -109px;
+   
+
+}
+.horn{
+    background-position: 0 -360px;
+   
+}
+.groups-ic{
+    background-position: 0 -46px;
+   
+}
+.plus-event{
+    background-position: 0 -277px;
+   
+}
+.basket{
+    background-position: 0 -586px;
+   
+}
+.exclamation-feedback{
+    background-position: 0 -218px;
+   
+}
+.cog{
+    background-position: 0 -1030px;
+   
+}
+.interogation-help{
+    background-position: 0 -701px;
+
+}
+.half-moon{
+    background-position: 0 -533px;
+   
+}
+.chevron-right{
+    background-position: 0 -76px;
+   
+}
+.open-door{
+    background-position: 0 -386px;
+
+}
+.ads-manager{
+    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/DHBHg9MEeSC.png');
+}
+.business-manager{
+    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yn/r/Doj4fJpfxHx.png');
+}
+.ads-center{
+    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/CwKNCefmHON.png');
+}
+.campus{
+    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/29AMNpNZ4Vm.png');
+}
+.messenger-sidebar{
+    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/4Y9Xi2D3hJv.png');
+}
+.market-sidebar{
+    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yU/r/D2y-jJ2C_hO.png');
+}
+.groups-sidebar{
+    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/PrjLkDYpYbH.png');
+}
+.friends-sidebar{
+    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/S0U5ECzYUSu.png');
+}
+.covid-info{
+    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/kOxV5aCYUAE.png');
+}
+.plus{
+    background-position: 0 -257px;
+  
+}
+.arrow-right{
+    background-position: 0 -194px;
+}
+.camera-flat{
+    background-position: 0 -96px;
+   
+}
+.flag-event{
+    background-position: 0 -448px;
+}
+.verified{
+    background-position: 0 -843px;
+}
+.messenger{
+    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/111xWLHJ_6m.png');
+}
+.friend-checked{
+    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/5nzjDogBZbf.png');
+}
+.edit-pen{
+    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yW/r/OR6SzrfoMFg.png');
+}
+.eye-view{
+    background-position: 0 -553px;
+}
+.upload-arrow{
+    background-position: 0 -508px;
+}
+.camera-flat2{
+    background-position: 0 -409px;
+}
+.emoji-small{
+    background-position: 0 -494px;
+}
+.error-exclamation{
+    background-position: 0 0;
+}

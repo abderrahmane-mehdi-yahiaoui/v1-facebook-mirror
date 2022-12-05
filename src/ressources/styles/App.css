@@ -1,0 +1,422 @@
+:root {
+    --header-size: 56px;
+    --border-radius: 8px;
+    --speed: 500ms;
+    --stand-font-size: .9375rem;
+    --apple-system: system-ui, -apple-system, sans-serif;
+    --always-dark:rgba(0, 0, 0, 0.4);
+    --accent: hsl(214, 100%, 59%);
+    --filter-always-white:invert(100%);
+    --story-create: 70px;
+    --story-height:198px;
+    /* Font Size */
+    --font-size-sub:.8125rem;
+    --font-size-small: .9375rem;
+    --font-size-small2:.9898rem;
+    --font-size-medium:1.0625rem;
+    --font-size-medium2:1.5rem;
+    --font-size-medium3:1.5rem;
+    --font-size-large:2rem;
+   
+    /* font-family */
+    --font-family--helv: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+
+    --primary-button-text: #fff;
+}
+
+:root,
+:root[theme="light"],
+:root.light {
+    --body-bg: #F0F2F5;
+    --header-bg: #fff;
+    --input-bg: #F0F2F5;
+    --divider: #CED0D4;
+    --vash: #E4E6EB;
+    --bg-accent: #484a4d;
+    --text-color: #dadce1;
+    --placeholde-textr: #8A8D91;
+    --primary-text: #E4E6EB;
+   
+    --card-background: #fff;
+    --primary-icon: #E4E6EB;
+    --placeholder-text: #8A8D91;
+    --overlay-alpha-80: rgba(244, 244, 244, 0.8);
+   
+    --primary-focused-button-background: rgba(45, 136, 255, 0.2);
+    --filter-primary-icon: invert(100%);
+    --filter-accent: invert(40%) sepia(52%) saturate(200%) saturate(200%) saturate(200%) saturate(189%) hue-rotate(191deg) brightness(103%) contrast(102%);
+    --hover-overlay: rgba(0, 0, 0, 0.05);
+   
+    /* ICONS FILTER*/
+    --filter-primary-icon: invert(8%) sepia(10%) saturate(200%) saturate(200%) saturate(166%) hue-rotate(177deg) brightness(104%) contrast(91%);
+    --secondary-icon: #65676B;
+    --filter-secondary-icon: invert(39%) sepia(21%) saturate(200%) saturate(109.5%) hue-rotate(174deg) brightness(94%) contrast(86%);
+    --filter-placeholder-icon: invert(59%) sepia(11%) saturate(200%) saturate(135%) hue-rotate(176deg) brightness(96%) contrast(94%);
+    /* BUTTON BACKGROUNDS*/
+    --primary-button-background: #2D88FF;
+    --secondary-button-background: #E4E6EB;
+    --disabled-button-background: #E4E6EB;
+        /* Button text color*/
+       
+    /* TEXT COLORS*/
+    --primary-text: #050505;
+    --secondary-text: #65676B;
+    --disabled-text: #BCC0C4;
+    --accent-text: hsl(214, 100%, 59%);
+    /* SHADOW*/
+    --shadow-1: rgba(0, 0, 0, 0.1);
+    --shadow-2: rgba(0, 0, 0, 0.2);
+    --shadow-inset: rgba(255, 255, 255, 0.5);
+    --media-inner-border: rgba(0, 0, 0, 0.1);
+
+    --scroll-thumb: #BCC0C4;
+   
+}
+
+:root[theme="dark"],
+:root.dark {
+    --body-bg: #151616;
+    --header-bg: #242526;
+    --input-bg: #3A3B3C;
+    --divider: #3E4042;
+    --popover-background:#3E4042;
+    --secondary-icon: #B0B3B8;
+    --bg-accent: #484a4d;
+    --text-color: #dadce1;
+    --secondary-text: #B0B3B8;
+    --placeholde-textr: #8A8D91;
+    --primary-text: #E4E6EB;
+    --card-shadow:  0 12px 28px var(--shadow-2),0 2px 4px 0 var(--shadow-1),inset 0 0 0 1px var(--shadow-inset);
+    --card-background: #242526;
+    --placeholder-text: #8A8D91;
+    --overlay-alpha-80: rgba(11, 11, 11, 0.8);
+    --secondary-button-background: rgba(255, 255, 255, 0.1);
+    --primary-focused-button-background: rgba(45, 136, 255, 0.2);
+    --filter-accent: invert(40%) sepia(52%) saturate(200%) saturate(200%) saturate(200%) saturate(189%) hue-rotate(191deg) brightness(103%) contrast(102%);
+    --hover-overlay: rgba(255, 255, 255, 0.1);
+    --accent: hsl(214, 100%, 59%);
+    --shadow-1:rgba(0, 0, 0, 0.1);
+    --shadow-2: rgba(0, 0, 0, 0.2);
+    --shadow-inset: rgba(255, 255, 255, 0.05);
+    /* Icon color*/
+    --primary-icon: #E4E6EB;
+    /* Icon filters*/
+    --filter-primary-icon:invert(100%);
+    --filter-secondary-icon: invert(62%) sepia(98%) saturate(12%) hue-rotate(175deg) brightness(90%) contrast(96%);
+   /* Button backgrounds*/
+   --primary-button-background: #2D88FF;
+   --secondary-button-background: rgba(255, 255, 255, 0.1);
+   --disabled-button-background:rgba(255, 255, 255, 0.2);
+    /* Text colors*/
+    --primary-text: #E4E6EB;
+    --secondary-text: #B0B3B8;
+    --accent-text: hsl(214, 100%, 59%);
+    --disabled-text:rgba(255, 255, 255, 0.3);
+    --darkGray-text:  #1c1e21;
+    --lightGray-text: #606770;
+     /* SHADOW*/
+    --shadow-1: rgba(0, 0, 0, 0.1);
+    --shadow-2: rgba(0, 0, 0, 0.2);
+    --media-inner-border: rgba(255, 255, 255, 0.05);
+    --scroll-thumb: rgba(255, 255, 255, 0.3);
+
+    --vash: #3E4042;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: var(--apple-system);
+    margin: 0;
+    padding: 0;
+    outline-width: .1em;
+    vertical-align: baseline;
+}
+
+
+body{
+    background-color: var(--body-bg);
+    min-width: fit-content;
+}
+.no-scroll{
+    overflow:hidden !important;
+}
+
+::-webkit-scrollbar {
+    background-color: var(--header-bg);
+    width: 10px;
+    
+}
+.hidden-scrollbar::-webkit-scrollbar{
+    background:transparent;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-thumb);
+    border-radius: 8px;
+}
+
+#root,
+.app {
+    height: 100%;
+    background-color:var(--body-bg);
+
+}
+
+.f__home {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.grid {
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas: 'sidebar mainSection';
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
+.main__section {
+    grid-area: mainSection;
+    height: 100%;
+}
+
+.f__sidebar {
+    grid-area: sidebar;
+    padding: 25px 10px;
+    overflow-y: auto;
+}
+
+
+.marginRight8 {
+    margin-right: 8px;
+}
+
+.padding0 {
+    padding: 0;
+}
+
+.f-size09 {
+    font-size: var(--stand-font-size);
+}
+
+.p-relative {
+    position: relative;
+}
+
+p-absolute {
+    position: absolute;
+}
+
+.flex {
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.j-arround {
+    justify-content: space-around;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.linkText {
+    color: var(--text-color);
+}
+
+.p-sticky {
+    position: sticky;
+}
+
+.flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bTranspMaxcont {
+    background-color: transparent;
+    height: max-content;
+}
+
+.txtCapit {
+    text-transform: capitalize;
+}
+
+.fWeight600fSize {
+    font-size: .9375rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.addTopostIcons {
+    height: 36px;
+    width: 36px;
+}
+
+.margin0 {
+    margin: 0;
+}
+
+.timeStamp {
+    font-weight: 400;
+    font-size: .8125rem;
+    color: #65676B;
+}
+
+.zIndex {
+    z-index: 120;
+    position: absolute;
+}
+
+.sidebarIcon,
+.MuiAvatar-root.sidebarIcon {
+    height: 28px;
+    width: 28px;
+}
+
+.sidebarMoreIcon {
+    background-position: 0 -301px;
+    height: 20px;
+    width: 20px;
+}
+
+.sidebarLessIcon {
+    background-position: 0 -406px;
+    height: 20px;
+    width: 20px;
+}
+
+.text-color {
+    color: var(--text-color);
+}
+
+.secondary-text {
+    color: var(--secondary-text);
+}
+
+.hiddenInput {
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    bottom:0;
+    right: 0;
+    cursor: pointer !important;
+    z-index:3;
+    padding:0 !important;
+}
+
+input:matches([type="button"]),
+input[type="file"]::-webkit-file-upload-button {
+    height: 0;
+    width: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.primary-text {
+    color: var(--primary-text)
+}
+.avatar-small{
+    height:28px !important;
+    width:28px !important;
+}
+
+@keyframes loading-animation{
+    0%{
+        background-color: rgba(59, 60, 60, 0.94);
+    }
+    50%{
+        background-color:  rgb(51, 52, 53);
+    }
+    100%{
+        background-color: var(--divider) ;
+    }
+}
+.loading{
+    animation-delay: 1000ms;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-name: loading-animation;
+    animation-timing-function: setps(10, end);
+    background: var(--vash);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    z-index:5;
+    border-radius:inherit;
+}
+.loading-text{
+    width:150px;
+    height:6px;
+    position: relative;
+    border-radius: 8px;
+}
+.lt--50{
+    width:50px;
+}
+.img-container{
+    height:100%;
+    width:100%;
+    
+    overflow: hidden;
+}
+.img-container > img{
+    margin: -1px;
+}
+.op-0{
+    opacity:0;
+}
+
+.transform-scale-verified > i{
+    transform: scale(.7);
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+.txt-overflow--177{
+    text-overflow: ellipsis;
+    max-width: 177px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.txt-overflow--180{
+    text-overflow: ellipsis;
+    max-width: 180px;
+    white-space: nowrap;
+    overflow: hidden;
+
+    display: inline-block;
+
+}

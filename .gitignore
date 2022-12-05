@@ -17,7 +17,7 @@ legacy-src
 /.next
 /out
 next.config.js
-src
+
 # production
 /build
 
