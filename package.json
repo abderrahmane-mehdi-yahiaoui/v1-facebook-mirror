@@ -5,10 +5,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abderrahmane-mehdi-yahiaoui/facebook-mirror.git"
+    "url": "git+https://github.com/abderrahmane-mehdi-yahiaoui/v1-facebook-mirror.git"
   },
   "bugs": {
-    "url": "https://github.com/abderrahmane-mehdi-yahiaoui/facebook-mirror/issues"
+    "url": "https://github.com/abderrahmane-mehdi-yahiaoui/v1-facebook-mirror/issues"
   },
   "private": true,
   "dependencies": {
