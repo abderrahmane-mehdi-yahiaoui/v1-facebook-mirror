@@ -19,7 +19,7 @@
 
 > A Facebook clone project made back in 2020.
 
-### ✨ [Demo](facebook-mirror.vercel.app)
+### ✨ [Demo](https://facebook-mirror.vercel.app)
 
 ## Prerequisites
 
