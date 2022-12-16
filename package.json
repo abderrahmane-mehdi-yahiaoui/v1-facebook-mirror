@@ -1,14 +1,19 @@
 {
-  "name": "facebook-mirror",
+  "name": "facebook-miror",
   "version": "0.0.1",
+  "description": "A Facebook clone project made back in 2020.",
   "author": "Abderrahmane Mehdi YAHIAOUI",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abderrahmane-mehdi-yahiaoui/v1-facebook-mirror.git"
+    "url": "git+https://github.com/abderrahmane-mehdi-yahiaoui/facebook-mirror.git"
   },
   "bugs": {
-    "url": "https://github.com/abderrahmane-mehdi-yahiaoui/v1-facebook-mirror/issues"
+    "url": "https://github.com/abderrahmane-mehdi-yahiaoui/facebook-mirror/issues"
+  },
+  "engines": {
+    "npm": ">=5.5.0",
+    "node": ">=9.3.0"
   },
   "private": true,
   "dependencies": {
@@ -33,12 +38,6 @@
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
